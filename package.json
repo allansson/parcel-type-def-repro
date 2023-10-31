@@ -1,0 +1,22 @@
+{
+  "name": "parcel-type-def-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "scripts": {
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.10.1",
+    "@parcel/transformer-typescript-types": "^2.10.1",
+    "parcel": "^2.10.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "prettier-src": "prettier/prettier"
+  }
+}
